@@ -1,9 +1,9 @@
 # Projeto 1 - Labolatório de Desenvolvimento de Software - Portfolio
 
-##Imagens dos protótipos:
+## Imagens dos protótipos:
 
 
-## descrição do projeto :
+## Descrição do projeto:
 Este projeto se trata de um portfolio que posteriormente conterá as informações respectivas de cada um dos integrantes do grupo, sendo essas divididas entre:
 - a pagina inicial, com uma introdução sobre o graduando(a) e uma introdução sobre as outras seções da aplicação.
 - a pagina de projetos, contendo projetos pessoais realizados pelo aluno.
@@ -14,4 +14,4 @@ Este projeto se trata de um portfolio que posteriormente conterá as informaçõ
 Front-end: Angular
 Back-end: Asp.NET Core
 
-##estrutura inicial do site:
+## Estrutura inicial do site:
