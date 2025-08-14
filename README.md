@@ -11,7 +11,7 @@ Este projeto se trata de um portfolio que posteriormente conterá as informaçõ
 - a pagina de contato, onde estarão os meios de contato do estudante. 
 
 ## Tecnologias Previstas:
-Front-end: Angular
-Back-end: Asp.NET Core
+- Front-end: Angular
+- Back-end: Asp.NET Core
 
 ## Estrutura inicial do site:
