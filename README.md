@@ -26,7 +26,7 @@ Olavo
 
 ## 🛠️ Tecnologias Utilizadas ##
 
-**Back-end**: .NET 
+**Back-end**: Asp.NET 
 
 **Front-end**: Angular
 
