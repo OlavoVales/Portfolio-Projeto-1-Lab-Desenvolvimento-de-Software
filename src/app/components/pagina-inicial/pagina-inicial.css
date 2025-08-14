@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do card */
+.nome-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.icone {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.icone img {
+    width: 40px;
+    height: 40px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.label {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linha {
+    height: 2px;
+    width: 200px;
+    background-color: white;
+    margin-top: 4px;
+}
