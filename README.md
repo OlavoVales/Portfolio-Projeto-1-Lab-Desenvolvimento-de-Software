@@ -42,6 +42,8 @@ Organização de pastas, componentes e módulos do Angular, integração com bac
 
 Protótipos desenvolvidos no Figma, mostrando layout, responsividade e fluxo de navegação do usuário.
 
+https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Desenvolvimento-de-Software?node-id=0-1&t=IpJKXVAlB2iwBQSe-1
+
 <img width="896" height="591" alt="image" src="https://github.com/user-attachments/assets/cde6a6e9-59ca-490e-84e3-aa4ecb2c43e0" />
 
 
