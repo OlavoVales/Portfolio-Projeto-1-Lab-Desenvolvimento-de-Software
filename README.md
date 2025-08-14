@@ -1,7 +1,7 @@
-*🌟 Portfolio Profissional*
+# 🌟 Portfolio Profissional #
 
 
-📖 Descrição do Projeto
+## 📖 Descrição do Projeto ##
 
 Este projeto consiste no desenvolvimento de um website de portfólio profissional, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
 
@@ -15,13 +15,13 @@ Experiências – Registro de experiências profissionais, estágios, trabalhos 
 
 Contato – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
 
-👥 Desenvolvedores
+## 👥 Desenvolvedores ##
 
 Fernanda Soares
 Olavo 
 Gabriel Reis
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas ##
 
 Back-end: .NET 
 
@@ -31,11 +31,11 @@ Design e prototipagem: Figma
 
 Controle de versão: GitHub e Git
 
-🌳 Estrutura Inicial do Site
+## 🌳 Estrutura Inicial do Site ##
 
 Organização de pastas, componentes e módulos do Angular, integração com back-end.
 
-🎨 Protótipos e Telas
+## 🎨 Protótipos e Telas ##
 
 Protótipos desenvolvidos no Figma, mostrando layout, responsividade e fluxo de navegação do usuário.
 
