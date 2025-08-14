@@ -33,7 +33,7 @@ Gabriel Reis
 
 **Controle de versão**: GitHub e Git
 
-## 🌳 Estrutura Inicial do Site ##
+## 📂 Estrutura Inicial do Site ##
 
 Organização de pastas, componentes e módulos do Angular, integração com back-end.
 
