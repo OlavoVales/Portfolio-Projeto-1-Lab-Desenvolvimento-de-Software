@@ -7,21 +7,22 @@ Este projeto consiste no desenvolvimento de um **website de portfólio profissio
 
 O site inclui as seguintes seções:
 
-**Sobre Mim** – Apresentação em português e inglês, destacando formação acadêmica, área de atuação, interesses e objetivos profissionais.
+- **Sobre Mim** – Apresentação em português e inglês, destacando formação acadêmica, área de atuação, interesses e objetivos profissionais.
 
-**Projetos** – Linha do tempo interativa de projetos, com nome, descrição, tecnologias utilizadas, links para repositórios e imagens/GIFs demonstrativos.
+- **Projetos** – Linha do tempo interativa de projetos, com nome, descrição, tecnologias utilizadas, links para repositórios e imagens/GIFs demonstrativos.
 
-**Experiências** – Registro de experiências profissionais, estágios, trabalhos e participação em eventos ou projetos relevantes.
+- **Experiências** – Registro de experiências profissionais, estágios, trabalhos e participação em eventos ou projetos relevantes.
 
-**Contato** – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
+- **Contato** – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
 
 ## 👥 Desenvolvedores ##
 
 Fernanda Soares
 
+Gabriel Reis
+
 Olavo 
 
-Gabriel Reis
 
 ## 🛠️ Tecnologias Utilizadas ##
 
