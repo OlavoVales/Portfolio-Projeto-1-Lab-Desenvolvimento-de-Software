@@ -18,7 +18,9 @@ Contato – Ícones clicáveis para redes sociais e formulário funcional para e
 ## 👥 Desenvolvedores ##
 
 Fernanda Soares
+
 Olavo 
+
 Gabriel Reis
 
 ## 🛠️ Tecnologias Utilizadas ##
