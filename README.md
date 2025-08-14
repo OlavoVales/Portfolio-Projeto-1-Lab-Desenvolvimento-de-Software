@@ -5,10 +5,10 @@
 
 ## Descrição do projeto:
 Este projeto se trata de um portfolio que posteriormente conterá as informações respectivas de cada um dos integrantes do grupo, sendo essas divididas entre:
-- a pagina inicial, com uma introdução sobre o graduando(a) e uma introdução sobre as outras seções da aplicação.
-- a pagina de projetos, contendo projetos pessoais realizados pelo aluno.
-- a pagina de experiencia, onde estará contindo as experiencias profissionais e/ou serviços prestados
-- a pagina de contato, onde estarão os meios de contato do estudante. 
+- A pagina inicial, com uma introdução sobre o graduando(a) e uma introdução sobre as outras seções da aplicação.
+- A pagina de projetos, contendo projetos pessoais realizados pelo aluno.
+- A pagina de experiencia, onde estará contindo as experiencias profissionais e/ou serviços prestados
+- A pagina de contato, onde estarão os meios de contato do estudante. 
 
 ## Tecnologias Previstas:
 - Front-end: Angular
