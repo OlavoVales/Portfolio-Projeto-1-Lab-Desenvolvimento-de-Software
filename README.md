@@ -1,4 +1,4 @@
-# 🌟 Portfolio Profissional #
+# 🌟 Portfólio Profissional #
 
 
 ## 📖 Descrição do Projeto ##
