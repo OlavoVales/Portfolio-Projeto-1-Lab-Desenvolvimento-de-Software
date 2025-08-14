@@ -1,4 +1,6 @@
-🌟 Portfolio Profissional
+*🌟 Portfolio Profissional*
+
+
 📖 Descrição do Projeto
 
 Este projeto consiste no desenvolvimento de um website de portfólio profissional, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
