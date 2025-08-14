@@ -21,7 +21,7 @@ Fernanda Soares
 
 Gabriel Reis
 
-Olavo 
+Olavo Vales
 
 
 ## 🛠️ Tecnologias Utilizadas ##
