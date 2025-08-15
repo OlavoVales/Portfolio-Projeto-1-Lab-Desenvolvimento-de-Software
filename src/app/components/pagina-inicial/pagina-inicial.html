@@ -16,4 +16,73 @@
   </button>
 </nav>
 
+<!--Seção do Perfil-->
+<div class="apresentacaoPerfil">
+  <div class="perfil">
+    <img id="foto" src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="fotoPerfil" width="450px" height="250px">
+    <span id="nomePessoa">COLOQUE SEU NOME AQUI</span>
+  </div>
+  <div class="sobreMim">
+      <p id="textoSobreMim">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis non massa et efficitur. 
+        Suspendisse molestie tortor sed nisi efficitur volutpat. Nunc eu purus lobortis, tristique nunc at, 
+        vulputate est. Pellentesque feugiat justo sapien, in semper augue aliquam et. Nam faucibus, eros eu 
+        pretium aliquam, elit odio auctor lacus, sit amet suscipit risus velit id odio. Maecenas nec est ut 
+        augue faucibus vestibulum. Fusce porttitor mauris sodales enim cursus congue. Curabitur quis risus 
+        pharetra, mollis risus id, pellentesque dolor. Nulla in congue tellus.<br><br>
+
+        Sed vel ex sit amet nisl tempor imperdiet quis a metus. Aenean in arcu ac ipsum facilisis hendrerit. 
+        Morbi fermentum metus et nunc dignissim hendrerit. Pellentesque urna felis, fermentum ut dapibus in, 
+        semper sed ligula. Cras tincidunt orci ac tortor consectetur, eget congue purus hendrerit. Mauris vel 
+        scelerisque nisi, eget mollis neque. Suspendisse non semper quam. Cras sed euismod leo. Mauris in elit 
+        ac eros convallis accumsan. Vivamus laoreet luctus nunc sit amet ullamcorper. Cras pellentesque tortor 
+        et dolor luctus molestie. Nam sit amet fringilla tortor. <br><br>
+
+        Proin sit amet turpis blandit, maximus sapien sit amet, scelerisque eros. Cras quis blandit tellus, 
+        vitae facilisis urna. Aenean a velit nec nisi interdum fringilla. Pellentesque lorem libero, cursus a 
+        orci in, ullamcorper pretium erat. Curabitur maximus eleifend nisl, vitae vulputate tortor. Sed sodales 
+        id est quis aliquet. Quisque in luctus risus.</p>
+  </div>
+</div>
+
+<!--Seção das Experiências-->
+<div class="experiencias">
+  <h2>Últimas Experiências</h2>
+  @for(item of arrayExperiencias(); track item;){
+    <details>
+      <summary>
+        <p>
+          <strong>{{ item.summary.strong}}</strong>
+          {{ item.summary.p }}
+        </p>
+      </summary>
+      <article [innerHTML]="item.text"></article>
+    </details>
+  }
+</div>
+<div class="verMaisExperiencias">
+  <button routerLink="/experiencias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Ver Mais
+  </button>
+</div>
+
+<!--Seção dos Projetos-->
+<div class="secaoProjetos">
+  <h2>Meus Projetos</h2>
+</div>
+<div class="projetos">
+  <div class="projeto">
+    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto1" width="400px" height="200px">
+  </div>
+  <div class="projeto">
+    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto2" width="400px" height="200px">
+  </div>
+  <div class="projeto">
+    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto3" width="400px" height="200px">
+  </div>
+</div>
+<div class="verMaisProjetos">
+   <button routerLink="/projetos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Ver mais
+  </button>
+</div>
 <app-footer></app-footer>
