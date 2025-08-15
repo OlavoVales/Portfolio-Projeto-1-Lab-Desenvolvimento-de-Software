@@ -18,13 +18,6 @@ export class PaginaInicial implements AfterViewInit {
         p: 'COLOQUE AQUI A EMPRESA | DATA',
       },
       text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
-    },
-    {
-      summary: {
-        strong: 'COLOQUEI AQUI O CARGO',
-        p: 'COLOQUE AQUI A EMPRESA | DATA',
-      },
-      text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
     }
   ]);
 

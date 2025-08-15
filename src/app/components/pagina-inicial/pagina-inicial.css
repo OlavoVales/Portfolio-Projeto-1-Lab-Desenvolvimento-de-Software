@@ -1,3 +1,4 @@
+/*Seção do Perfil*/
 .apresentacaoPerfil {
     margin-top: 3%;
 }
@@ -39,6 +40,7 @@
     font-weight: bold;
 }
 
+/*Seção das Experiência*/
 .experiencias {
     width: 100%;
     padding: 10px 0;
@@ -54,7 +56,6 @@
     color: white;
     margin-bottom: 20px;
     position: relative;
-    background: transparent;
 }
 
 .experiencias summary p {
@@ -127,4 +128,107 @@
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-5px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+.verMaisExperiencias {
+    background: #2e2e2e;
+    border: 0;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 4%;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 75%;
+}
+
+.verMaisExperiencias button {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.verMaisExperiencias:hover {
+    background: #02085c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/*Seção dos Projetos*/
+.secaoProjetos h2 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.secaoProjetos h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: white;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.projeto {
+    background: #02085c;
+    padding: 4px;
+    border-radius: 10px;
+    flex: 1 1 150px;
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.projeto img {
+    width: 350px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.verMaisProjetos {
+    background: #2e2e2e;
+    border: 0;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 4%;
+    text-align: center;
+    border-radius: 2px;
+    margin-left: 75%;
+    margin-top: 10px;
+}
+
+.verMaisProjetos button {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.verMaisProjetos:hover {
+    background: #02085c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
