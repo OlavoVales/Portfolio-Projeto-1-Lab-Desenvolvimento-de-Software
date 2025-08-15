@@ -1,0 +1,24 @@
+.container {
+    margin-top: 3%;
+}
+
+.projeto {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projeto,
+#foto {
+    margin-left: 11%;
+    border-radius: 5%;
+}
+
+#descricaoProjeto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+    margin-left: 5%;
+    min-width: 600px;
+    max-width: 800px;
+}
