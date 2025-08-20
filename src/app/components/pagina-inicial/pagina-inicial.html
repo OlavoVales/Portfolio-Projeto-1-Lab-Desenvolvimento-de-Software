@@ -19,7 +19,7 @@
 <!--Seção do Perfil-->
 <div class="apresentacaoPerfil">
   <div class="perfil">
-    <img id="foto" src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="fotoPerfil" width="450px" height="250px">
+    <img id="foto" src="pagina-inicial-images/profilepicture.webp" width="450px" height="250px">
     <span id="nomePessoa">COLOQUE SEU NOME AQUI</span>
   </div>
   <div class="sobreMim">
@@ -46,7 +46,7 @@
 
 <!--Seção das Experiências-->
 <div class="experiencias">
-  <h2>Últimas Experiências</h2>
+  <h2>Experiências</h2>
   @for(item of arrayExperiencias(); track item;){
     <details>
       <summary>
@@ -57,6 +57,19 @@
       </summary>
       <article [innerHTML]="item.text"></article>
     </details>
+    
+  }
+  @for(item of arrayExperiencias(); track item;){
+    <details>
+      <summary>
+        <p>
+          <strong>{{ item.summary.strong}}</strong>
+          {{ item.summary.p }}
+        </p>
+      </summary>
+      <article [innerHTML]="item.text"></article>
+    </details>
+    
   }
 </div>
 <div class="verMaisExperiencias">
@@ -71,13 +84,13 @@
 </div>
 <div class="projetos">
   <div class="projeto">
-    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto1" width="400px" height="200px">
+    <img src="pagina-inicial-images/itproject1.webp" alt="Projeto1" width="400px" height="200px">
   </div>
   <div class="projeto">
-    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto2" width="400px" height="200px">
+    <img src="pagina-inicial-images/itproject2.png" alt="Projeto2" width="400px" height="200px">
   </div>
   <div class="projeto">
-    <img src="https://www.carrosdub.com.br/fotos/2019/30-set-19/jetta-rebaixado-aro18-03.jpg" alt="Projeto3" width="400px" height="200px">
+    <img src="pagina-inicial-images/itproject3.jpg" alt="Projeto3" width="400px" height="200px">
   </div>
 </div>
 <div class="verMaisProjetos">
