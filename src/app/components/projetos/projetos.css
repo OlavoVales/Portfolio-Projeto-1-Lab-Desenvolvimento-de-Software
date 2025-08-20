@@ -13,7 +13,7 @@
 
 .projeto,
 #foto {
-    margin-left: 11%;
+    margin-left: 8%;
     border-radius: 5%;
 }
 
@@ -22,6 +22,5 @@
     color: white;
     font-size: medium;
     margin-left: 5%;
-    min-width: 600px;
-    max-width: 800px;
+    max-width: 40%;
 }
