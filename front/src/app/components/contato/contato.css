@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #1e1e1e;
+    padding: 10px 30px 30px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: 600px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00d4ff;
+}
+
+h2, label {
+  background: #1e1e1e;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #2a2a2a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    background: #333;
+    box-shadow: 0 0 5px #00d4ff;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row div {
+    flex: 1;
+}
+
+#btn-enviar-email{
+    width: 100%;
+    padding: 10px; 
+    border: none;
+    border-radius: 8px;
+    background: #00d4ff;
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+
+}
+
+#btn-enviar-email:hover {
+    background: #00aacc;
+}
+
+input, textarea, button {
+    box-sizing: border-box;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+
+.social-btn {
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 28px;
+    transition: 0.3s;
+    text-decoration: none;
+    box-shadow: 0 0 8px rgba(255,255,255,0.1);
+    }
+
+.social-btn:hover {
+    transform: scale(1.1);
+    border-color: #00d4ff;
+    color: #00d4ff;
+    box-shadow: 0 0 12px #00d4ff;
+}
