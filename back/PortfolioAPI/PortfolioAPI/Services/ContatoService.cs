@@ -32,7 +32,7 @@ namespace PortfolioAPI.Services
 
             smtpClient.Credentials = new NetworkCredential(meuEmail, minhaSenha);
 
-            var mensagemCompleta = new MailMessage(meuEmail!, infosUser.Email, infosUser.Assunto, infosUser.Mensagem);
+            var mensagemCompleta = new MailMessage(infosUser.Email, meuEmail!, infosUser.Assunto, infosUser.Mensagem); //porque no gmail aparece 2 vezes o meu email e não o do remetente e destinatario, pesquisar
 
             await smtpClient.SendMailAsync(mensagemCompleta);
         }
