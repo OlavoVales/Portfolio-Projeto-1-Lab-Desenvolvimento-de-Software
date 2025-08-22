@@ -15,10 +15,19 @@ namespace PortfolioAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> EnviarEmail(InformacoesUsuario infosUser)
+        public async Task<IActionResult> EnviarEmail([FromBody] InformacoesUsuario infosUser)
         {
-            await contatoService.EnviarEmail(infosUser);
-            return Ok();
+            try
+            {
+                Console.WriteLine($"Recebido: {infosUser.Email}, {infosUser.Assunto}");
+                await contatoService.EnviarEmail(infosUser);
+                return Ok(new { message = "Email enviado com sucesso" });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+                return StatusCode(500, new { error = "Erro interno do servidor" });
+            }
         }
     }
 }
