@@ -13,20 +13,26 @@ import { CommonModule } from '@angular/common';
   styleUrl: './contato.css'
 })
 export class Contato {
-  contato: IContato = {email: '', assunto: '', mensagem: '' };
+  contato: IContato = {Email: '', Assunto: '', Mensagem: '' };
   constructor(private contatoService: ContatoService) {}
 
   enviarFormulario() {  
-    this.contatoService.enviarEmail(this.contato).subscribe({
-      next: (res) => {
-        console.log(res);
-        alert('Mensagem enviada com sucesso!');
-        this.contato = {email: '', assunto: '', mensagem: '' }; // limpar formulário
-      },
-      error: (err) => {
-        console.error(err);
-        alert('Erro ao enviar mensagem.');
+  this.contatoService.enviarEmail(this.contato).subscribe({
+    next: (res) => {
+      console.log('Sucesso:', res);
+      alert('Mensagem enviada com sucesso!');
+      this.contato = {Email: '', Assunto: '', Mensagem: '' };
+    },
+    error: (err) => {
+      console.error('Erro completo:', err);
+      if (err.error instanceof ErrorEvent) {
+        console.error('Erro do cliente:', err.error.message);
+      } else {
+        console.error(`Código do erro: ${err.status}, `);
+        console.error('Resposta do servidor:', err.error);
       }
-    });
-  }
+      alert('Erro ao enviar mensagem. Verifique o console para detalhes.');
+    }
+  });
+}
 }

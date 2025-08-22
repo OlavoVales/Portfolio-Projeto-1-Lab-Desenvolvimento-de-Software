@@ -1,5 +1,5 @@
 export interface IContato {
-  email: string;
-  assunto: string;
-  mensagem: string;
+  Email: string;
+  Assunto: string;
+  Mensagem: string;
 }

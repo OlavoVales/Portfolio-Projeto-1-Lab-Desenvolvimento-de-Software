@@ -33,17 +33,17 @@
       <div>
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com"
-          [(ngModel)]="contato.email" required/>
+          [(ngModel)]="contato.Email" required/>
       </div>
     </div>
 
     <label for="assunto">Assunto:</label>
     <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto"
-      [(ngModel)]="contato.assunto" required/>
+      [(ngModel)]="contato.Assunto" required/>
 
     <label for="mensagem">mensagem:</label>
     <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui"
-      [(ngModel)]="contato.mensagem"></textarea>
+      [(ngModel)]="contato.Mensagem"></textarea>
 
     <button id="btn-enviar-email" type="submit">Enviar</button>
   </form>
