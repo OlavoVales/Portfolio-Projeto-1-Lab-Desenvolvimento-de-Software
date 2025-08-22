@@ -1,55 +1,49 @@
 {
-  "hash": "31b901f5",
-  "configHash": "f08306fe",
+  "hash": "28a0e27e",
+  "configHash": "54bcb6a3",
   "lockfileHash": "5e5c4556",
-  "browserHash": "4385a95a",
+  "browserHash": "de90b1e2",
   "optimized": {
-    "@angular/common": {
-      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
-      "file": "@angular_common.js",
-      "fileHash": "ade5e29f",
-      "needsInterop": false
-    },
     "@angular/common/http": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "31ba8584",
+      "fileHash": "a224d4eb",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "972f19ec",
+      "fileHash": "d8f341c2",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "2bc0bd7b",
+      "fileHash": "4b2b57d4",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d7d457f8",
+      "fileHash": "8f7c8a66",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "6c3ac296",
+      "fileHash": "6a6b14b9",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UOPQL6K2": {
-      "file": "chunk-UOPQL6K2.js"
+    "chunk-5REXWWBR": {
+      "file": "chunk-5REXWWBR.js"
     },
     "chunk-WBRD4B6V": {
       "file": "chunk-WBRD4B6V.js"
     },
-    "chunk-TB7IZF3S": {
-      "file": "chunk-TB7IZF3S.js"
+    "chunk-BLJY6OLG": {
+      "file": "chunk-BLJY6OLG.js"
     },
     "chunk-ZH6LALFQ": {
       "file": "chunk-ZH6LALFQ.js"
