@@ -6,11 +6,11 @@ using System.Net.Mail;
 
 namespace PortfolioAPI.Services
 {
-    public interface IEmailService
+    public interface IContatoService
     {
         Task EnviarEmail(InformacoesUsuario infosUser);
     }
-    public class ContatoService: IEmailService
+    public class ContatoService: IContatoService
     {
         private readonly IConfiguration configuration;
 

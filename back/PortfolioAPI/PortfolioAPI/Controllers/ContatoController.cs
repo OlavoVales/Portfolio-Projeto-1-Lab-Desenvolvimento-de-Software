@@ -8,16 +8,16 @@ namespace PortfolioAPI.Controllers
     [Route("api/[controller]")]
     public class ContatoController : ControllerBase
     {
-        private readonly IEmailService emailService;
-        public ContatoController(IEmailService emailService) 
+        private readonly IContatoService contatoService;
+        public ContatoController(IContatoService contatoService) 
         {
-            this.emailService = emailService;
+            this.contatoService = contatoService;
         }
 
         [HttpPost]
         public async Task<IActionResult> EnviarEmail(InformacoesUsuario infosUser)
         {
-            await emailService.EnviarEmail(infosUser);
+            await contatoService.EnviarEmail(infosUser);
             return Ok();
         }
     }
