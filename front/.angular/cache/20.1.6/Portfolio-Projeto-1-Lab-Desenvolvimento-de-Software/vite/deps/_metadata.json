@@ -1,34 +1,61 @@
 {
-  "hash": "63083538",
-  "configHash": "3624b99f",
+  "hash": "da8f49a5",
+  "configHash": "e4476dd7",
   "lockfileHash": "5be91393",
-  "browserHash": "660c2830",
+  "browserHash": "efe23af5",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "d4687249",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "a3a50922",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "866f8497",
+      "fileHash": "de324b79",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "7a2b6944",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "6f9078dd",
+      "fileHash": "354a1d8b",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "020da2e4",
+      "fileHash": "429431ba",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-C2FRCCBN": {
-      "file": "chunk-C2FRCCBN.js"
+    "chunk-UOPQL6K2": {
+      "file": "chunk-UOPQL6K2.js"
     },
-    "chunk-VSF4W2WL": {
-      "file": "chunk-VSF4W2WL.js"
+    "chunk-WBRD4B6V": {
+      "file": "chunk-WBRD4B6V.js"
+    },
+    "chunk-TB7IZF3S": {
+      "file": "chunk-TB7IZF3S.js"
+    },
+    "chunk-ZH6LALFQ": {
+      "file": "chunk-ZH6LALFQ.js"
+    },
+    "chunk-GIKWJLYW": {
+      "file": "chunk-GIKWJLYW.js"
     }
   }
 }
