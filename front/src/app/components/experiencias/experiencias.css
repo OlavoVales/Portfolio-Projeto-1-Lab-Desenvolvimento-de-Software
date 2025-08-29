@@ -1,85 +1,122 @@
-.experiencias {
-    width: 100%;
-    padding: 10px 0;
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.experiencias h1 {
-  margin-top: 100px;
-    font-size: 28px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 50px;
-    position: relative;
-}
-
-.experiencias summary p {
-    display: flex;
-    flex-direction: column;
-}
-
-.experiencias summary p strong {
-    display: block;
-}
-
-.experiencias h2::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 4px;
-    background: white;
-    margin: 8px auto 0;
-    border-radius: 2px;
-}
-
-/* Cards de experiência */
-.experiencias details {
+.form-container {
+    background: #1e1e1e;
+    padding: 10px 30px 30px 30px;
     border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: 600px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00d4ff;
+}
+
+h2, label {
+  background: #1e1e1e;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+input, textarea {
     width: 100%;
-    max-width: 59%;
-    margin-top: 15px;
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
-
-.experiencias details:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
-
-/* Cabeçalho */
-.experiencias summary {
-    cursor: pointer;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #4db8ff;
-    color: white;
-    font-size: 16px;
-    transition: background 0.3s ease;
-}
-
-.experiencias summary p, strong, p, article {
-    background: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.experiencias details[open] summary {
-    background: #4db8ff;
-}
-
-/* Texto interno */
-.experiencias article {
-    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
     font-size: 14px;
-    line-height: 1.6;
-    color: #ffffff;
-    background-color: #2e2e2e;
-    animation: fadeIn 0.3s ease-in-out;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #2a2a2a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    background: #333;
+    box-shadow: 0 0 5px #00d4ff;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row div {
+    flex: 1;
+}
+
+#btn-enviar-email{
+    width: 100%;
+    padding: 10px; 
+    border: none;
+    border-radius: 8px;
+    background: #00d4ff;
+    color: #121212;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+
+}
+
+#btn-enviar-email:hover {
+    background: #00aacc;
+}
+
+input, textarea, button {
+    box-sizing: border-box;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+
+.social-btn {
+    width: 70px;
+    height: 70px;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 28px;
+    transition: 0.3s;
+    text-decoration: none;
+    box-shadow: 0 0 8px rgba(255,255,255,0.1);
+    }
+
+.social-btn:hover {
+    transform: scale(1.1);
+    border-color: #00d4ff;
+    color: #00d4ff;
+    box-shadow: 0 0 12px #00d4ff;
 }
 
 * {
@@ -88,8 +125,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 body {
-  background: #121212;
   color: #f1f1f1;
   line-height: 1.6;
 }
@@ -134,10 +171,4 @@ button {
 button:hover {
   background: #36a3e0;
   color: white;
-}
-
-/* Animação de abertura */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-5px); }
-    to { opacity: 1; transform: translateY(0); }
 }
