@@ -57,19 +57,6 @@
       </summary>
       <article [innerHTML]="item.text"></article>
     </details>
-    
-  }
-  @for(item of arrayExperiencias(); track item;){
-    <details>
-      <summary>
-        <p>
-          <strong>{{ item.summary.strong}}</strong>
-          {{ item.summary.p }}
-        </p>
-      </summary>
-      <article [innerHTML]="item.text"></article>
-    </details>
-    
   }
 </div>
 <div class="verMaisExperiencias">

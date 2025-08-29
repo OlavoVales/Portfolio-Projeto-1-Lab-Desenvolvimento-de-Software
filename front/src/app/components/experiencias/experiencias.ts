@@ -7,7 +7,8 @@ import { IExperiencias } from '../interface/IExperiencias.interface';
   selector: 'app-pagina-inicial',
   imports: [RouterModule, Footer],
   templateUrl: './experiencias.html',
-  styleUrl: './experiencias.css'
+  styleUrls: ['./experiencias.css', '../navbar.css']
+
 })
 export class Experiencias implements AfterViewInit {
 

@@ -7,11 +7,19 @@ import { IExperiencias } from '../interface/IExperiencias.interface';
   selector: 'app-pagina-inicial',
   imports: [RouterModule, Footer],
   templateUrl: './pagina-inicial.html',
-  styleUrls: ['./pagina-inicial.css']
+  styleUrls: ['./pagina-inicial.css', '../navbar.css']
 })
+
 export class PaginaInicial implements AfterViewInit {
 
   public arrayExperiencias = signal<IExperiencias[]>([
+    {
+      summary: {
+        strong: 'COLOQUEI AQUI O CARGO',
+        p: 'COLOQUE AQUI A EMPRESA | DATA',
+      },
+      text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
+    },
     {
       summary: {
         strong: 'COLOQUEI AQUI O CARGO',

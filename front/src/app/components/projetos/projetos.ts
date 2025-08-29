@@ -6,8 +6,9 @@ import { Footer } from '../footer/footer';
   selector: 'app-projetos',
   imports: [RouterModule, Footer],
   templateUrl: './projetos.html',
-  styleUrl: './projetos.css'
+  styleUrls: ['./projetos.css', '../navbar.css']
 })
+
 export class Projetos {
 
 }

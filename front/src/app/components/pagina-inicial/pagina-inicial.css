@@ -87,10 +87,10 @@ h2 {
   letter-spacing: 1px;
 }
 .experiencias details {
+  max-width: 900px;
   border-radius: 12px;
   background: #1a1a1a;
   margin: 15px auto;
-  width: 85%;
   overflow: hidden;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
@@ -106,6 +106,14 @@ h2 {
   color: #ddd;
   background: #1e1e1e;
   font-size: 15px;
+}
+.experiencias summary p {
+    display: flex;
+    flex-direction: column; /* já força cada filho em linha separada */
+}
+
+.experiencias summary p strong {
+    display: block;
 }
 .projetos {
   display: flex;

@@ -6,7 +6,8 @@ import { Footer } from '../footer/footer';
   selector: 'app-contato',
   imports: [RouterModule, Footer],
   templateUrl: './contato.html',
-  styleUrl: './contato.css'
+  styleUrls: ['./contato.css', '../navbar.css']
+
 })
 export class Contato {
 
