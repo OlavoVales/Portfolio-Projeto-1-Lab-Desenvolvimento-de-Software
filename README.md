@@ -61,6 +61,10 @@ https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Dese
 
 <img width="796" height="779" alt="image" src="https://github.com/user-attachments/assets/8002e828-57ac-4e30-9b63-dccc526fb146" />
 
+## Como Executar o Front-end da aplicação ##
+
+...
+
 ## Como Executar o Back-end da aplicação ##
 
 1. Instale o Visual Studio
