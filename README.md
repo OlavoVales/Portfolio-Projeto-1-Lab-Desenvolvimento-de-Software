@@ -1,4 +1,4 @@
-# 🌟 Portfólio Profissional #
+<img width="1920" height="987" alt="{FB8DBA09-DADA-4E18-87D1-4A7CEE2333C7}" src="https://github.com/user-attachments/assets/8c476138-256c-4a2b-9c88-3a0e8078c035" /># 🌟 Portfólio Profissional #
 
 
 ## 📖 Descrição do Projeto ##
@@ -61,5 +61,22 @@ https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Dese
 
 <img width="796" height="779" alt="image" src="https://github.com/user-attachments/assets/8002e828-57ac-4e30-9b63-dccc526fb146" />
 
+## Como Executar o Back-end da aplicação ##
 
+1. Instale o Visual Studio
+
+<img width="1867" height="920" alt="{7EF7E6A6-3F95-4573-9326-62EDC6FF0784}" src="https://github.com/user-attachments/assets/59979500-adff-4925-b011-929755f35d8e" />
+
+2. Instale as dependências de "ASP.NET e desenvolvimento Web"
+
+<img width="1579" height="859" alt="{C6AB6199-FD18-4C1F-AF65-8172BF8EBD13}" src="https://github.com/user-attachments/assets/8f1d7a74-2491-47ea-8045-4f2aa88bd022" />
+
+3. Com o git clone do projeto já feito anteriormente, abra a estrutura das pastas do projeto da seguinte forma:
+   Portfolio-Projeto-1-Lab-Desenvolvimento-de-Software -> back -> PortfolioAPI -> Portfolio.sln
+
+4. No canto superior, clique em https, para executar o projeto
+
+<img width="1920" height="987" alt="{FB8DBA09-DADA-4E18-87D1-4A7CEE2333C7}" src="https://github.com/user-attachments/assets/c02b8c96-0d11-4d09-a1b4-60379c42accc" />
+
+5. Abrirá o swagger da API, abra o POST, clique em try it out, edite o corpo da requisição, de forma que o campo email obrigatoriamente tenha um @ na string, após isso mande a requisição
 
