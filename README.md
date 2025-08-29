@@ -1,4 +1,4 @@
-<img width="1920" height="987" alt="{FB8DBA09-DADA-4E18-87D1-4A7CEE2333C7}" src="https://github.com/user-attachments/assets/8c476138-256c-4a2b-9c88-3a0e8078c035" /># 🌟 Portfólio Profissional #
+# 🌟 Portfólio Profissional #
 
 
 ## 📖 Descrição do Projeto ##
