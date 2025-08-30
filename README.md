@@ -63,7 +63,197 @@ https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Dese
 
 ## Como Executar o Front-end da aplicação ##
 
-...
+Este passo a passo explica como **clonar, instalar e rodar** o projeto Angular no Windows usando o **VS Code** e o **Angular CLI**. Inclui também uma seção de **solução de problemas** com os erros mais comuns.
+
+---
+
+## ✅ Pré‑requisitos
+
+* **Node.js** (recomendado: versão **LTS**) → [https://nodejs.org/](https://nodejs.org/)
+* **npm** (vem junto com o Node.js)
+* **Angular CLI** (instalação global)
+* **Git** (para clonar o repositório) → [https://git-scm.com/](https://git-scm.com/)
+* **VS Code** (opcional, mas recomendado) → [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+> **Dica:** após instalar, confirme as versões no terminal (PowerShell):
+
+```powershell
+node -v
+npm -v
+ng version
+```
+
+---
+
+## 🚀 Passo a passo (TL;DR)
+
+1. **\[Windows/PowerShell] Habilitar execução de scripts (uma vez só):**
+
+   * Abra o **PowerShell** como **Administrador** e rode:
+
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   ```
+
+   * Confirme com **S** (Sim) quando solicitado.
+
+2. **Clonar o repositório:**
+
+```powershell
+git clone https://github.com/<SEU_USUARIO>/<SEU_REPOSITORIO>.git
+cd <SEU_REPOSITORIO>
+```
+
+3. **Instalar dependências:**
+
+```powershell
+npm install
+```
+
+4. **Rodar o servidor de desenvolvimento:**
+
+```powershell
+ng serve --open
+```
+
+> O projeto abrirá em `http://localhost:4200/`.
+
+5. **Abrir no VS Code (opcional):**
+
+```powershell
+code .
+```
+
+---
+
+## 📦 Scripts úteis
+
+> Os comandos abaixo usam o **Angular CLI**. Execute dentro da pasta do projeto.
+
+* **Servir em modo dev:**
+
+```powershell
+ng serve
+# ou especifique outra porta
+ng serve --port 4300
+```
+
+* **Build de produção:**
+
+```powershell
+ng build --configuration production
+```
+
+* **Rodar testes (se configurados):**
+
+```powershell
+ng test
+```
+
+---
+
+## 🧭 Estrutura esperada do projeto (resumo)
+
+```
+<SEU_REPOSITORIO>/
+├─ angular.json        # configurações do workspace Angular
+├─ package.json        # dependências e scripts npm
+├─ src/                # código-fonte da aplicação
+└─ ...
+```
+
+---
+
+## 🛠️ Solução de problemas (FAQ)
+
+### 1) **PowerShell bloqueando o comando `ng`**
+
+**Erro:**
+
+```
+ng : O arquivo ... ng.ps1 não pode ser carregado porque a execução de scripts foi desabilitada neste sistema.
+```
+
+**Causa:** política de execução do PowerShell.
+**Como resolver:**
+
+```powershell
+# Execute UMA VEZ no PowerShell como Administrador
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Feche e reabra o terminal.
+
+---
+
+### 2) **“This command is not available when running the Angular CLI outside a workspace.”**
+
+**Causa:** você está fora da pasta do projeto (onde existe `angular.json`).
+**Como resolver:**
+
+```powershell
+cd CAMINHO/DA/PASTA/DO/PROJETO
+# confirme que existem angular.json e package.json
+ng serve
+```
+
+---
+
+### 3) **“Node packages may not be installed… Could not find '@angular/build\:dev-server'”**
+
+**Causa:** dependências não instaladas.
+**Como resolver:**
+
+```powershell
+npm install
+ng serve
+```
+
+Se persistir, tente limpar e reinstalar:
+
+```powershell
+rmdir /s /q node_modules
+Del package-lock.json
+npm cache clean --force
+npm install
+ng serve
+```
+
+---
+
+### 4) **`npm v` vs `npm -v`**
+
+Para ver a versão do npm, use **`npm -v`** (com hífen).
+`npm v` tenta buscar um pacote chamado `v` e pode gerar erro.
+
+---
+
+### 5) **Porta 4200 ocupada**
+
+```powershell
+ng serve --port 4300
+```
+
+---
+
+### 6) **Pergunta do CLI: “Do you want to create a 'zoneless' application without zone.js (Developer Preview)? (y/N)”**
+
+Se você busca **estabilidade** (recomendado), responda **N** (ou apenas **Enter**) para manter `zone.js` (modo padrão).
+
+---
+
+### 7) **Compatibilidade de versões (Node/Angular)**
+
+* Prefira **Node LTS**.
+* Se houver discrepâncias, instale a versão mais recente do CLI **localmente** no projeto e use via `npx`:
+
+```powershell
+npm i -D @angular/cli@latest
+npx ng version
+npx ng serve
+```
+
+---
 
 ## Como Executar o Back-end da aplicação ##
 
