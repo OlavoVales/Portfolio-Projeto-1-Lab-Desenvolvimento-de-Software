@@ -1,9 +1,5 @@
 # 🌟 Portfólio Profissional #
 
-## ⚒️ Link da Aplicação ##
-
-https://portfolio-projeto-1-lab-desenvolvim-sable.vercel.app/projetos
-
 ## 📖 Descrição do Projeto ##
 
 Este projeto consiste no desenvolvimento de um **website de portfólio profissional**, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
