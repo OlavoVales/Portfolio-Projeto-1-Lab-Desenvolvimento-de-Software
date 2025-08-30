@@ -85,3 +85,10 @@ https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Dese
 5. Abrirá o swagger da API, abra o POST, clique em try it out, edite o corpo da requisição, de forma que o campo email obrigatoriamente tenha um @ na string, após isso mande a requisição
 
 <img width="1860" height="970" alt="{81C4CB17-E451-4B0A-A4DA-BBA85D4015EA}" src="https://github.com/user-attachments/assets/ce290dd5-4767-45c0-8020-aa1210bc6813" />
+<img width="1857" height="926" alt="{05FC9B37-5228-49C3-A940-49984805B0FA}" src="https://github.com/user-attachments/assets/57a9cabf-aa96-45e0-b638-bec10dc37c8e" />
+<img width="1863" height="921" alt="{64B69126-E317-4042-8BD3-006BB6AE00EC}" src="https://github.com/user-attachments/assets/8dda3c51-fcdc-4ed3-a53d-591c2cecd244" />
+<img width="1859" height="918" alt="{2BA7DA1C-AE36-4350-8BB0-75DEE923512F}" src="https://github.com/user-attachments/assets/f1fb11e0-4ee5-49f6-9003-9eb05f0f95ad" />
+<img width="1859" height="918" alt="{2BA7DA1C-AE36-4350-8BB0-75DEE923512F}" src="https://github.com/user-attachments/assets/7c9a3893-e30f-43b3-9e28-7911cf160cb6" />
+
+
+
