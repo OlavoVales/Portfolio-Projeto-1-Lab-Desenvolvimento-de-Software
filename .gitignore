@@ -32,14 +32,88 @@ yarn-error.log
 .sass-cache/
 /connect.lock
 /coverage
-/libpeerconnection.log
-testem.log
 /typings
 
 # System files
 .DS_Store
 Thumbs.db
 
-#Angular
+# Angular
 .angular
 .angular/cache/
+
+# Asp.net core
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Backup & reports
+*.bak
+*.opendb
+*.VC.db
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Others
+*.dbmdl
+*.jfm
+*_i.c
+*_p.c
+*.ipch
+*.aps
+*.res
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*_i.asm
+*_p.asm
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish outputs
+**/wwwroot/lib/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+*.Publish.xml
+*.azurePubxml
+
+# Azure stuff
+PublishProfiles/
+App_Data/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Others (configs locais)
+launchSettings.json
+appsettings.Development.json
