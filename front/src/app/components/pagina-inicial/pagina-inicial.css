@@ -10,30 +10,6 @@ body {
   color: #f1f1f1;
   line-height: 1.6;
 }
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding: 18px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-nav button {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-weight: 500;
-  
-  font-size: 16px;
-  transition: 0.3s ease;
-  padding-bottom: 5px;
-}
-nav button:hover,
-nav .active {
-  color: #4db8ff;
-  border-bottom: 2px solid #4db8ff;
-}
 .apresentacaoPerfil {
   text-align: center;
   margin: 100px auto 60px;
