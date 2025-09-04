@@ -32,7 +32,7 @@ namespace PortfolioAPI.Services
 
             smtpClient.Credentials = new NetworkCredential(meuEmail, minhaSenha);
 
-            var mensagemCompleta = new MailMessage(meuEmail!, infosUser.Email, infosUser.Assunto, infosUser.Mensagem);
+            var mensagemCompleta = new MailMessage(infosUser.Email, meuEmail!, infosUser.Assunto, infosUser.Mensagem);
 
             await smtpClient.SendMailAsync(mensagemCompleta);
         }
