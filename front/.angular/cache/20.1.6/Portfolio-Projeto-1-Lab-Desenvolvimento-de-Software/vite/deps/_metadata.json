@@ -1,25 +1,44 @@
 {
-  "hash": "33ff1283",
-  "configHash": "60092cf8",
+<<<<<<< Updated upstream
+  "hash": "ae79b472",
+  "configHash": "68a4f403",
   "lockfileHash": "5be91393",
-  "browserHash": "312676ec",
+  "browserHash": "d10ce212",
+=======
+  "hash": "5a558be3",
+  "configHash": "1375063b",
+  "lockfileHash": "5be91393",
+  "browserHash": "f04e8840",
+>>>>>>> Stashed changes
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "971d0a98",
+<<<<<<< Updated upstream
+      "fileHash": "4ccf7678",
+=======
+      "fileHash": "1823cd73",
+>>>>>>> Stashed changes
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "08127eb7",
+<<<<<<< Updated upstream
+      "fileHash": "0e7d2909",
+=======
+      "fileHash": "8bb5ae61",
+>>>>>>> Stashed changes
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "037fce64",
+<<<<<<< Updated upstream
+      "fileHash": "c1e2b827",
+=======
+      "fileHash": "870086c4",
+>>>>>>> Stashed changes
       "needsInterop": false
     }
   },
